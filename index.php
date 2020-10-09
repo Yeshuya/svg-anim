@@ -3,6 +3,9 @@
         <title>SVG Illustrations</title>
     </head>
     <body>
+        <div style="padding: 20px; text-align:center; font-size: 80px;">
+            SVG ILLUSTRATIONS
+        </div>
         <svg width="200" height="300" style=" background: #ffd55a;">
             <line x1="0" y1="34" x2="180" y2="35" style="stroke: #6dd47e;stroke-width:8" />
             <line x1="0" y1="115" x2="180" y2="116" style="stroke:#6dd47e;stroke-width:8" />
@@ -20,6 +23,9 @@
             <circle cx="200" cy="189" r="40" fill="#293250" />
             <circle cx="200" cy="268" r="40" fill="#293250" />
         </svg>
+        <div style="position: absolute; margin-top: 10px; margin-left: 35px; padding: 5px; text-align:center; font-size: 20px;">
+            Circle & Lines
+        </div>
 
         <svg width="200" height="300" style="margin-left: 15px; background: #ffd55a;">
             <rect x="10" y="10" width="180" height="280" style="fill:#6dd47e;"/>
@@ -30,6 +36,9 @@
             <circle cx="185" cy="285" r="40" fill="#293250" />
             <circle cx="100" cy="150" r="60" fill="#fff" />
         </svg>
+        <div style="position: absolute; margin-top: 10px; margin-left: 230px; padding: 5px; text-align:center; font-size: 20px;">
+            Circle & Rectangles
+        </div>
 
         <svg width="200" height="300" style="margin-left: 15px; background: #ffd55a;">
             <circle cx="98" cy="30" r="50" fill="#fff" />
@@ -44,10 +53,19 @@
             <polyline points="-7,326 47.5,268 100,326 153,268 207,326" style="fill: transparent; stroke:#293250; stroke-width:20" />
             <polyline points="-7,355 48,297 100,355 153,297 207,355" style="fill: transparent; stroke:#6dd47e; stroke-width:20" />
         </svg>
+        <div style="position: absolute; margin-top: 10px; margin-left: 460px; padding: 5px; text-align:center; font-size: 20px;">
+            Polyline & Circle
+        </div>
 
         <svg width="200" height="300" style="margin-left: 15px; background: #ffd55a;">
-            <polyline points="0,-15 60,30 -6,70 60,110 -6,150 60,190 -6,230 60,270 -6,310" style="fill: transparent; stroke:#fff; stroke-width:15" />
-            <polyline points="-6,-10 45,30 -6,70 45,110 -6,150 45,190 -6,230 45,270 -6,310" style="fill: #293250; stroke:#293250; stroke-width:15" />
+            <polygon points="0,-15 60,30 -6,70" style="fill: transparent; stroke:#fff; stroke-width:15" />
+            <polygon points="-6,70 60,110 -6,150" style="fill: transparent; stroke:#fff; stroke-width:15" />
+            <polygon points="-6,150 60,190 -6,230" style="fill: transparent; stroke:#fff; stroke-width:15" />
+            <polygon points="-6,230 60,270 -6,310" style="fill: transparent; stroke:#fff; stroke-width:15" />
+            <polygon points="-6,-10 45,30 -6,70" style="fill: #293250; stroke:#293250; stroke-width:15" />
+            <polygon points="-6,70 45,110 -6,150" style="fill: #293250; stroke:#293250; stroke-width:15" />
+            <polygon points="-6,150 45,190 -6,230" style="fill: #293250; stroke:#293250; stroke-width:15" />
+            <polygon points="-6,230 45,270 -6,310" style="fill: #293250; stroke:#293250; stroke-width:15" />
             <ellipse cx="120" cy="70" rx="70" ry="30" style="fill:#6dd47e;" />
             <ellipse cx="120" cy="70" rx="55" ry="20" style="fill:#fff;" />
             <ellipse cx="120" cy="150" rx="70" ry="30" style="fill:#6dd47e;" />
@@ -55,6 +73,9 @@
             <ellipse cx="120" cy="230" rx="70" ry="30" style="fill:#6dd47e;" />
             <ellipse cx="120" cy="230" rx="55" ry="20" style="fill:#fff;" />
         </svg>
+        <div style="position: absolute; margin-top: 10px; margin-left: 678px; padding: 5px; text-align:center; font-size: 20px;">
+            Polygon & Ellipse
+        </div>
 
         <svg width="200" height="300" style="margin-left: 15px; background: black;">
             <rect x="0" y="0" width="200" height="150" style="fill:#6dd47e;"/>
@@ -64,6 +85,9 @@
             <line x1="0" y1="150" x2="200" y2="150" style="stroke: #fff;stroke-width:15" />
             <line x1="100" y1="0" x2="100" y2="300" style="stroke: #fff;stroke-width:15" />
         </svg>
+        <div style="position: absolute; margin-top: 10px; margin-left: 868px; padding: 5px; text-align:center; font-size: 20px;">
+            Circle, Line & Rectangle
+        </div>
 
         <svg width="200" height="300" style="margin-left: 15px; background: #ffd55a;">
             <polyline points="-6,12 16,30 -6,48 " style="Fill: transparent; stroke:#fff; stroke-width:8" />
@@ -85,6 +109,9 @@
             <polygon points="180,150 155,130 155,170" style="Fill: #fff;" />
             <polygon points="180,230 155,210 155,250" style="Fill: #fff;" />
         </svg>
+        <div style="position: absolute; margin-top: 10px; margin-left: 1105px; padding: 5px; text-align:center; font-size: 20px;">
+            Polyline and Polygon
+        </div>
 
         <svg width="200" height="300" style="margin-left: 15px; background: #ffd55a;">
             <ellipse cx="57" cy="10" rx="10" ry="20" style="fill:#6dd47e;" />
@@ -157,5 +184,14 @@
             <polyline points="0,0 23,20 0,40 23,60 0,80 23,100 0,120 23,140 0,160 23,180 0,200 23,220 0,240 23,260 0,280 23,300 0,320" style="fill: #293250; stroke:#293250; stroke-width:3" />
             <polyline points="200,0 177,20 200,40 177,60 200,80 177,100 200,120 177,140 200,160 177,180 200,200 177,220 200,240 177,260 200,280 177,300 200,320" style="fill: #293250; stroke:#293250; stroke-width:3" />
         </svg>
+        <div style="position: absolute; margin-top: 10px; margin-left: 1340px; padding: 5px; text-align:center; font-size: 20px;">
+            Final Illustration
+        </div>
+
+        <a href="https://github.com/Yeshuya/svg-anim">
+            <div style="position: absolute; top: 600px; right: 710px; border: 1px solid black; padding: 15px;"> 
+                GITHUB LINK
+            </div>
+        </a>
     </body>
 </html>
